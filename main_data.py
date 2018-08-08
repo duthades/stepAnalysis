@@ -38,8 +38,8 @@ TIME = TIME_SEC / 60
 
 os.system('clear')
 
-print("The distance form PG to 1B office is %d m" % DISTANCE)
-print("Total steps taken to reach the destination = %d" % NO_OF_STEPS)
-print("The number of steps taken per min = %d" % STEPS_PER_MIN)
-print("Average stride length = %.2f m" % AVERAGE_STRIDE_LENGTH)
-print("Total time to reach destination = %.2f min" % TIME)
+print("The distance from PG to 1B office is %d m" % DISTANCE)
+print("Total steps taken to reach the destination are %d" % NO_OF_STEPS)
+print("The number of steps taken per min are %d" % STEPS_PER_MIN)
+print("Average stride length is %.2f m" % AVERAGE_STRIDE_LENGTH)
+print("Total time to reach destination is %.2f min" % TIME)
