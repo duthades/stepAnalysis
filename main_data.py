@@ -15,7 +15,7 @@ def find_peaks(acc_):
 
 DISTANCE = 900
 
-DATA = pd.read_csv('1B_6th.csv', sep=';', header=1)
+DATA = pd.read_csv('1B_7th.csv', sep=';', header=1)
 
 HEADER = DATA.columns.values.tolist()
 DATA = DATA.set_index(HEADER[-2])
